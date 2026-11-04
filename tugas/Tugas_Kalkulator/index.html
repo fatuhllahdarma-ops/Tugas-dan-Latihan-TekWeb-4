@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Kalkulator Sederhana</h1>
+    <section class="kalkulator">
+        <main>
+            <input type="number" id="angka1" placeholder="Angka pertama">
+            <input type="number" id="angka2" placeholder="Angka kedua">
+        </main>
+        <div class="tombol">
+            <button onclick="hitung('+')">+</button>
+            <button onclick="hitung('-')">-</button>
+            <button onclick="hitung('*')">×</button>
+            <button onclick="hitung('/')">÷</button>
+        </div>
+        <div id="muncul" aria-live="polite">Hasil akan muncul di sini</div>
+    </section>
+    <script src="kalkulator.js"></script>
+</body>
+</html>
